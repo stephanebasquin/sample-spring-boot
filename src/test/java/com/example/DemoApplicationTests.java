@@ -29,4 +29,14 @@ public class DemoApplicationTests {
 		}
 	}
 
+	@Test
+	public void additionner_first_param_should_not_be_null() throws Exception {
+		if (a == null) {
+			assertTrue(false);
+		}
+		else {
+			AssertTrue(true);
+		}
+	}
+
 }
