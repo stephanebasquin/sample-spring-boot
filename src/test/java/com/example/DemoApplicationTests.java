@@ -46,4 +46,15 @@ public class DemoApplicationTests {
 		}
 	}
 
+	@Test
+	public void additionner_second_param_should_not_be_null() throws Exception {
+		try {
+			DemoApplication.additionner(1,null);
+			assertTrue(false);
+		}
+		catch (Exception e) {
+			assertTrue(true);
+		}
+	}
+
 }
