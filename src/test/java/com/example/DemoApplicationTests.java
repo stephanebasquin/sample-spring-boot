@@ -21,7 +21,13 @@ public class DemoApplicationTests {
 
 	@Test
 	public void additionner_should_give_a_number_with_two_integers() throws Exception {
-		if (DemoApplication.additionner(1,2) == 3) {
+		//GIVEN
+		
+		//WHEN
+		Integer result = DemoApplication.additionner(1,2);
+		//THEN
+		Integer expected = 3;
+		if (result == expected) {
 			assertTrue(true);
 		}
 		else {
