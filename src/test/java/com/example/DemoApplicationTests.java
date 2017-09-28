@@ -15,7 +15,7 @@ public class DemoApplicationTests {
 	}
 
 	@Test
-	public  void myTest() {
+	public void myTest() {
 		assertTrue(true);
 	}
 
@@ -31,11 +31,12 @@ public class DemoApplicationTests {
 
 	@Test
 	public void additionner_first_param_should_not_be_null() throws Exception {
-		if (a == null) {
+		try {
+			DemoApplication.additionner(null,2);
 			assertTrue(false);
 		}
-		else {
-			AssertTrue(true);
+		catch (Exception e) {
+			assertTrue(true);
 		}
 	}
 
