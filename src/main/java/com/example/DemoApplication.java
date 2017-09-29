@@ -23,4 +23,11 @@ public class DemoApplication {
 		}
 		throw new Exception();
 	}
+
+	public static Integer multiplier(Integer a, Integer b) throws Exception {
+		if (a != null && b != null) {
+			return a*b;
+		}
+		throw new Exception();
+	}
 }
