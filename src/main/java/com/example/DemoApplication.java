@@ -25,24 +25,23 @@ public class DemoApplication {
 		// Test de code dupliqué
 		Integer i = 0;
 		i = 1;
+		System.out.println("i:"+i);
 		i = 2;
+		System.out.println("i:"+i);
 		i = 3;
+		System.out.println("i:"+i);
 		i = 4;
+		System.out.println("i:"+i);
 		i = 5;
+		System.out.println("i:"+i);
 		i = 6;
+		System.out.println("i:"+i);
 		i = 7;
+		System.out.println("i:"+i);
 		i = 8;
+		System.out.println("i:"+i);
 		i = 9;
-		i = 10;
-		i = 1;
-		i = 2;
-		i = 3;
-		i = 4;
-		i = 5;
-		i = 6;
-		i = 7;
-		i = 8;
-		i = 9;
+		System.out.println("i:"+i);
 		i = 10;
 		System.out.println("i:"+i);
 		
@@ -57,24 +56,23 @@ public class DemoApplication {
 		// Test de code dupliqué
 		Integer i = 0;
 		i = 1;
+		System.out.println("i:"+i);
 		i = 2;
+		System.out.println("i:"+i);
 		i = 3;
+		System.out.println("i:"+i);
 		i = 4;
+		System.out.println("i:"+i);
 		i = 5;
+		System.out.println("i:"+i);
 		i = 6;
+		System.out.println("i:"+i);
 		i = 7;
+		System.out.println("i:"+i);
 		i = 8;
+		System.out.println("i:"+i);
 		i = 9;
-		i = 10;
-		i = 1;
-		i = 2;
-		i = 3;
-		i = 4;
-		i = 5;
-		i = 6;
-		i = 7;
-		i = 8;
-		i = 9;
+		System.out.println("i:"+i);
 		i = 10;
 		System.out.println("i:"+i);
 		
