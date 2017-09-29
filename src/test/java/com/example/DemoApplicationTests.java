@@ -78,6 +78,7 @@ public class DemoApplicationTests {
 	}
 
 	@Test
+	@Ignore
 	public void multiplier_should_give_a_number_with_two_integers() throws Exception {
 		//GIVEN
 		
