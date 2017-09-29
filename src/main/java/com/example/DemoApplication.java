@@ -21,6 +21,21 @@ public class DemoApplication {
 		if (a != null && b != null) {
 			return a-b;
 		}
+		
+		// Test de code dupliqué
+		Integer i = 0;
+		i = 1;
+		i = 2;
+		i = 3;
+		i = 4;
+		i = 5;
+		i = 6;
+		i = 7;
+		i = 8;
+		i = 9;
+		i = 10;
+		System.out.println("i:"+i);
+		
 		throw new Exception();
 	}
 
@@ -28,6 +43,21 @@ public class DemoApplication {
 		if (a != null && b != null) {
 			return a*b;
 		}
+		
+		// Test de code dupliqué
+		Integer i = 0;
+		i = 1;
+		i = 2;
+		i = 3;
+		i = 4;
+		i = 5;
+		i = 6;
+		i = 7;
+		i = 8;
+		i = 9;
+		i = 10;
+		System.out.println("i:"+i);
+		
 		throw new Exception();
 	}
 }
