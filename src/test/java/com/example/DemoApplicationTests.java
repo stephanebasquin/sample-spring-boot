@@ -21,26 +21,4 @@ public class DemoApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
-
-public Integer additionner(Integer a, Integer b){
-        Integer c;
-        c=a+b;
-        System.out.println("a = " + a + ", b = " + b);
-	System.out.println("La somme vaut " + c); 
-        return(c);
-    } 
-
-@Test
-public void additionner_integer()
-    {
-        if (additionner(2,3)==5 ) {
-        	assertTrue( true );
-	}
-	else {
-		assertTrue( false );
-		logger.fatal("This is fatal : La somme ne vaut pas 5" );
-	}
-}
-
 }
