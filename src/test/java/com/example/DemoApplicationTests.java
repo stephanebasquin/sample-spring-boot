@@ -22,7 +22,7 @@ public class DemoApplicationTests {
 	public void contextLoads() {
 	}
 
-}
+
 
 @Ignore
 @Test
@@ -56,3 +56,4 @@ public void additionner_integer()
 	}
 }
 
+}
