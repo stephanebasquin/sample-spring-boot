@@ -23,19 +23,6 @@ public class DemoApplicationTests {
 	}
 
 
-
-@Ignore
-@Test
-public void plante_tout_le_temps(){
-	assertTrue( false );
-}
-
-@Ignore
-@Test
-public void plante_tout_le_temps(){
-	assertTrue( false );
-}
-
 public Integer additionner(Integer a, Integer b){
         Integer c;
         c=a+b;
