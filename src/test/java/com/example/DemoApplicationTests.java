@@ -14,3 +14,7 @@ public class DemoApplicationTests {
 	}
 
 }
+@Test
+public void plante_tout_le_temps(){
+	assertTrue( false );
+}
